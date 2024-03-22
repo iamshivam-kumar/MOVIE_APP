@@ -4,13 +4,18 @@ import "swiper/css";
 import "./App.css";
 import Banner from "./pages/Banner";
 import Header from "./pages/Header";
+import BlogPage from "./components/BlogPage";
+
+
+
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
       <Banner />
-    </>
+      <BlogPage/>  
+    </div>
   );
 }
 
